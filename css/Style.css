@@ -51,8 +51,8 @@ ul {
   transition: ease-in-out;
 }
 
+
 .nav .nav-menu {
-  justify-content: space-between;
 }
 
 .nav .toggle-collapse{
