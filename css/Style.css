@@ -47,15 +47,13 @@ ul {
   padding: 0 2rem;
   height: 0rem;
   min-height: 10vh;
-  overflow: hidden;
-  transition: ease-in-out;
 }
-
 
 .nav .nav-menu {
+  justify-content: space-between;
 }
 
-.nav .toggle-collapse{
+.nav .toggle-collapse {
   position: absolute;
   top: 0%;
   width: 90%;
@@ -63,18 +61,18 @@ ul {
   display: none;
 }
 
-.nav .toggle-collapse .toggle-icons{
+.nav .toggle-collapse .toggle-icons {
   display: flex;
   justify-content: flex-end;
   padding: 1.7rem 0;
 }
 
-.nav .toggle-collapse .toggle-icons i{
-font-size: 1.4rem;
-color: var(--text-gray);
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.4rem;
+  color: var(--text-gray);
 }
 
-.collapse{
+.collapse {
   height: 30rem;
 }
 
@@ -91,10 +89,10 @@ color: var(--text-gray);
   font-size: 1.1rem;
 }
 
-.nav .nav-items .nav-link:hover{
+.nav .nav-items .nav-link:hover {
   background-color: var(--midnight);
 }
-.nav .nav-items .nav-link:hover a{
+.nav .nav-items .nav-link:hover a {
   color: var(--white);
 }
 
@@ -102,13 +100,12 @@ color: var(--text-gray);
   padding: 1.4rem 0;
 }
 
-.nav .social i{
-padding: 0.2rem;
+.nav .social i {
+  padding: 0.2rem;
 }
 
-.nav .social i:hover{
+.nav .social i:hover {
   color: #a1c4cf;
-
 }
 
 .nav .nav-brand a {
@@ -120,17 +117,17 @@ padding: 0.2rem;
 
 /*-------------navbar-------------*/
 
-
 /* Viewport <=750px */
 
-@media only screen and (max-width:750px){
-  .nav .nav-menu, .nav .nav-items{
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
     flex-direction: column;
   }
 
-  .nav .toggle-collapse{
-  display: initial;
+  .nav .toggle-collapse {
+    display: initial;
   }
-  }
+}
 
 /* Viewport <=750px */
