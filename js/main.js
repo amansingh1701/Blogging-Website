@@ -42,4 +42,9 @@ $('html, body').animate({
 })
 
 
+//AOS Interface 
+
+AOS.init();
+
+
  });
